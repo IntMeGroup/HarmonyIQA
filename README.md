@@ -34,7 +34,17 @@ The HarmonyIQA dataset consists of:
 
 
 ## Model
-The **HarmonyIQA Model** is trained to predict the perceptual quality of harmonized images, leveraging human ratings and deep learning techniques. HarmonyIQA is changed from InternVL2, with code modifications in modeling_internlm2.py.
+You can download the HarmonyIQA weights from the following link:
+[HarmonyIQA](https://huggingface.co/sparkling621/HarmonyIQA)
+
+⚡ Inference
+
+```bash
+pip install requirements.txt
+python inference.py \
+    --image "/path/to/harmonized_img.jpg" \  # Path to the harmonized image
+    --peft_dir "./checkpoints" \  # Directory containing LoRA checkpoints and MLP head. 
+```
 
 ## License
 TBA
