@@ -9,7 +9,7 @@ from torchvision.transforms import InterpolationMode
 from transformers import AutoTokenizer, AutoModel, AutoConfig
 from peft import PeftModel
 
-MODEL_PATH = "/mnt/data/xzt/LLM/internvl3_5"
+MODEL_PATH = "OpenGVLab/InternVL3_5-8B"
 INPUT_SIZE = 448
 
 IMG_START_TOKEN = "<img>"
