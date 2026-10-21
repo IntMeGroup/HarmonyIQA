@@ -4,21 +4,6 @@ This is the official repository for the paper:
 
 **HarmonyIQA: Pioneering Benchmark and Model for Image Harmonization Quality Assessment**
 
-## Citation
-If you find this work useful, please cite our paper:
-
-```
-@misc{xu2025harmonyiqapioneeringbenchmarkmodel,
-      title={HarmonyIQA: Pioneering Benchmark and Model for Image Harmonization Quality Assessment},
-      author={Zitong Xu and Huiyu Duan and Guangji Ma and Liu Yang and Jiarui Wang and Qingbo Wu and Xiongkuo Min and Guangtao Zhai and Patrick Le Callet},
-      year={2025},
-      eprint={2501.01116},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2501.01116},
-}
-```
-
 ## Description
 HarmonyIQA introduces a **benchmark dataset** and a **model** for Image Harmonization Quality Assessment. It provides:
 - A large-scale dataset with images harmonized using multiple state-of-the-art harmonization algorithms.
@@ -51,4 +36,17 @@ TBA
 
 ## Contact
 For questions, please contact **Zitong Xu** at [xzt20021124@icloud.com].
+
+## Citation
+If you find this work useful, please cite our paper:
+
+```
+@INPROCEEDINGS{harmonyiqa,
+  author={Xu, Zitong and Duan, Huiyu and Ma, Guangji and Yang, Liu and Wang, Jiarui and Wu, Qingbo and Min, Xiongkuo and Zhai, Guangtao and Callet, Patrick Le},
+  booktitle={2025 IEEE International Conference on Multimedia and Expo (ICME)}, 
+  title={HarmonyIQA: Pioneering Benchmark and Model for Image Harmonization Quality Assessment}, 
+  year={2025},
+  pages={1-6},
+}
+```
 
